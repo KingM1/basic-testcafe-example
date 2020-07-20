@@ -12,7 +12,7 @@
   "author": "mking@urbn.com",
   "license": "UNLICENSED",
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": "0.19.2",
     "he": "1.2.0",
     "lodash": "4.17.11",
     "testcafe": "^1.8.2",
