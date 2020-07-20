@@ -1,0 +1,10 @@
+{
+	"build": "Molly Test Build",
+    "project": "Molly Test Project",
+    "resolution": "1280x1024",
+    "name": "Run 1",
+    "browserstack.debug": true,
+    "browserstack.console": "errors",
+    "browserstack.networkLogs": true,
+    "realMobile": true,
+}

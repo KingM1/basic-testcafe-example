@@ -1,0 +1,22 @@
+{
+  "name": "slipstream-e2e",
+  "private": true,
+  "version": "3.26.0",
+  "description": "SlipStream End-to-End Integration Tests using TestCafe",
+  "main": "testRunner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testcafe": "node testRunner.js",
+    "testcafeDocker": "node --max-http-header-size=9999999 testRunner.js"
+  },
+  "author": "mking@urbn.com",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "0.18.0",
+    "he": "1.2.0",
+    "lodash": "4.17.11",
+    "testcafe": "^1.8.2",
+    "testcafe-browser-provider-browserstack": "^1.13.0",
+    "yargs": "12.0.5"
+  }
+}
